@@ -1,5 +1,22 @@
-p {
-  color: red;
+body {
+  margin: 0px;
+}
+
+.root-wrapper {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sidebar-title {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=App.css.map */
