@@ -1,3 +1,5 @@
+$deep-red: #611818;
+
 body {
     margin: 0px;
 }
@@ -13,8 +15,68 @@ body {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
-.sidebar-title {
-    margin: 0px;
+.sidebar-container {
+    width: 413px;
+    height: 100%;
+    background-color: $deep-red;
+    position: absolute;
+
+    .sidebar-content {
+        width: 413px;
+        height: 1024px;
+        position: absolute;
+        margin-top: 120%;
+        margin-left: 31%;
+
+        .sidebar-title {
+            margin: 0px;
+            font-size: 230px;
+            color: white;
+            letter-spacing: 10px;
+        }
+
+        .sidebar-description-content {
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+            margin-top: -32px;
+
+            #plus-logo {
+                margin: 0px;
+                margin-left: 60px;
+                margin-right: 20px;
+            }
+
+            #sidebar-description {
+                font-family: Arial;
+                color: white;
+                font-size: 25px;
+                letter-spacing: 1.13px;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+.social-icons-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 39px;
+    right: 31px;
+
+    #facebook-logo {
+        transform: scale(.9);
+        margin: 0px;
+        margin-bottom: 20px;
+        filter: drop-shadow(1px 3px 2px black);
+    }
+
+    #instagram-logo {
+        transform: scale(.9);
+        filter: drop-shadow(1px 3px 2px black);
+    }
 }

@@ -13,10 +13,63 @@ body {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.sidebar-title {
+.sidebar-container {
+  width: 413px;
+  height: 100%;
+  background-color: #611818;
+  position: absolute;
+}
+.sidebar-container .sidebar-content {
+  width: 413px;
+  height: 1024px;
+  position: absolute;
+  margin-top: 120%;
+  margin-left: 31%;
+}
+.sidebar-container .sidebar-content .sidebar-title {
   margin: 0px;
+  font-size: 230px;
+  color: white;
+  letter-spacing: 10px;
+}
+.sidebar-container .sidebar-content .sidebar-description-content {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  margin-top: -32px;
+}
+.sidebar-container .sidebar-content .sidebar-description-content #plus-logo {
+  margin: 0px;
+  margin-left: 60px;
+  margin-right: 20px;
+}
+.sidebar-container .sidebar-content .sidebar-description-content #sidebar-description {
+  font-family: Arial;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1.13px;
+  font-weight: normal;
+}
+
+.social-icons-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 39px;
+  right: 31px;
+}
+.social-icons-container #facebook-logo {
+  transform: scale(0.9);
+  margin: 0px;
+  margin-bottom: 20px;
+  filter: drop-shadow(1px 3px 2px black);
+}
+.social-icons-container #instagram-logo {
+  transform: scale(0.9);
+  filter: drop-shadow(1px 3px 2px black);
 }
 
 /*# sourceMappingURL=App.css.map */
