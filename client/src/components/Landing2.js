@@ -73,8 +73,8 @@ export class Landing2 extends Component {
                         </div>
                     </div>
                     <div className="social-icons-container">
-                        <input id="facebook-logo" type="image" src={process.env.PUBLIC_URL + "/images/Facebook.svg"}/>
-                        <input id="instagram-logo" type="image" src={process.env.PUBLIC_URL + "/images/Instagram.svg"}/>
+                        <input alt="img" id="facebook-logo" type="image" src={process.env.PUBLIC_URL + "/images/Facebook.svg"}/>
+                        <input alt="img" id="instagram-logo" type="image" src={process.env.PUBLIC_URL + "/images/Instagram.svg"}/>
                     </div>
                 </div>
             </div>
