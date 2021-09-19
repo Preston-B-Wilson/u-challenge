@@ -15,7 +15,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-image: url(%PUBLIC_URL%/images/Coding-Challenge-Image.png);
+  background-image: url(U-Challenge/images/Coding-Challenge-Image.png);
 }
 
 .sidebar-container {
@@ -278,7 +278,7 @@ body {
   height: 45px;
   background-color: transparent;
   border-style: none;
-  background-image: url(%PUBLIC_URL%/images/Plus.svg);
+  background-image: url(U-Challenge/images/Plus.svg);
   background-repeat: no-repeat;
   opacity: 1;
   user-select: none;
