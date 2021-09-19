@@ -1,9 +1,11 @@
-import Landing from "./components/Landing.js"
+import Landing2 from "./components/Landing2.js"
+
+
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
+      <Landing2/>
     </div>
   );
 }
